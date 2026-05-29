@@ -2,7 +2,7 @@
 
 This repository contains a robust Python-based data engineering pipeline designed to extract, filter, clean, and structure experimental material data directly from **MatWeb**. It automates the transition from raw HTML tables into highly structured tabular data (Wide-Format / Feature Vectors) suitable for Data Science and Machine Learning.
 
-## 🚀 Key Features
+## Key Features
 
 * **Advanced Web Scraping (Selenium WebDriver):** Connects via an existing browser session to bypass automated bot detection scripts (like Cloudflare's *"Just a moment"* page).
 * **Smart Filtering:** Extracts unique URLs via BeautifulSoup from local HTML indices, with customizable exclude-term lists to filter out unwanted material grades.
@@ -11,7 +11,7 @@ This repository contains a robust Python-based data engineering pipeline designe
 * **Room Temperature (RT) Handling:** Automatically matches properties with their specific testing temperatures and handles fallback values if no temperature is provided (assigns them to specialized `RT` columns).
 * **Checkpoint & Resume System:** Tracks already processed materials in a local file log to seamlessly resume extractions after exceptions or timeouts.
 
-## 🛠️ Built With
+## Built With
 
 * **Python 3.10+**
 * **Selenium & Edge WebDriver** (for JavaScript/Session handling)
@@ -19,7 +19,7 @@ This repository contains a robust Python-based data engineering pipeline designe
 * **Pandas** (for complex table restructuring and CSV export)
 * **Regex** (for robust string parsing of units and values)
 
-## 📖 How it Works
+## How it Works
 
 The pipeline is split into distinct functional steps within the Jupyter Notebook:
 1. **Link Extraction:** Parses a saved MatWeb search result page to gather target `DataSheet.aspx?MatGUID=` links.
@@ -27,7 +27,7 @@ The pipeline is split into distinct functional steps within the Jupyter Notebook
 3. **Data Flattening (`extract_to_wide_lists`):** Parses the tables, splits values from their respective units, filters out descriptive/optical properties, and transforms rows into columns.
 4. **Column Pairing:** Automatically groups property value columns directly next to their corresponding `Temperature` column.
 
-## 💻 Prerequisites & Setup
+## Prerequisites & Setup
 
 1. Install dependencies:
    ```bash
