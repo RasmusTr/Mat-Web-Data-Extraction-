@@ -2,6 +2,8 @@
 
 This repository contains a robust Python-based data engineering pipeline designed to extract, filter, clean, and structure experimental material data directly from **MatWeb**. It automates the transition from raw HTML tables into highly structured tabular data (Wide-Format / Feature Vectors) suitable for Data Science and Machine Learning.
 
+In this documentation data extraction has been performed on refractory metals. 
+
 ## Key Features
 
 * **Advanced Web Scraping (Selenium WebDriver):** Connects via an existing browser session to bypass automated bot detection scripts (like Cloudflare's *"Just a moment"* page).
