@@ -42,12 +42,13 @@ Before executing the Python script or running your Jupyter Notebook, you must op
 
 ### Results:
 
-The following images show the program output: 
+The following image show the program output: 
 
-<p float="left">
+<p>
   <img src="pictures/Output_Program1.png" width="400" />
-  <img src="pictures/Output_Program2.png" width="400" />
 </p>
+
+The follwing images are showing the data stored in a csv file. Due to copyright restrictions, the content has been obscured. 
 
 <p float="left">
   <img src="pictures/csv_output1.jpg" width="400" />
