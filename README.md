@@ -50,7 +50,10 @@ The following image show the program output:
 
 The follwing images are showing the data stored in a csv file. Due to copyright restrictions, the content has been obscured. 
 
-<p float="left">
-  <img src="pictures/csv_output1.jpg" width="400" />
-  <img src="pictures/csv_output2.jpg" width="400" />
+<p>
+  <img src="pictures/csv_output1.jpg" width="800" />
+</p>
+
+<p>
+<img src="pictures/csv_output_2.jpg" width="800" />
 </p>
