@@ -38,3 +38,18 @@ Before executing the Python script or running your Jupyter Notebook, you must op
 
 ```cmd
 "C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" --remote-debugging-port=9222 --user-data-dir="C:\temp\edge_debug_profile"
+
+
+### Results:
+
+The following images show the program output: 
+
+<p float="left">
+  <img src="pictures/Output_Program1.png" width="400" />
+  <img src="pictures/Output_Program2.png" width="400" />
+</p>
+
+<p float="left">
+  <img src="pictures/csv_output1.jpg" width="400" />
+  <img src="pictures/csv_output2.jpg" width="400" />
+</p>
